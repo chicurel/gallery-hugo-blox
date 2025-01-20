@@ -1,1 +1,16 @@
-/* Add your block styles here */
+/* Gallery container styling */
+.gallery-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+/* Style for images */
+.gallery-image {
+  flex-shrink: 0; /* Prevent images from shrinking */
+  width: 150px; /* Set a fixed width for consistent sizing */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow effect */
+}/* Add your block styles here */
